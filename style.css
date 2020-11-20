@@ -1,0 +1,324 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.snow {
+  background-image: url("snow.gif");
+}
+.extraHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: silver;
+  background-image: url(street-art-graffiti.jpg);
+  color: white;
+}
+
+.shirts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  width: 100%;
+  margin: auto;
+}
+
+.shirtWhite {
+  margin-right: 6em;
+}
+
+.shirtBrown {
+  margin-right: 6em;
+}
+
+.shirtBlack {
+  margin-right: 0em;
+}
+
+.shirtText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+}
+
+.imageContainer {
+  width: 100em;
+  height: 20em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#image1 {
+  background-image: url("bbs2021PurpleFront.PNG");
+  margin-right: 0em;
+  filter: saturate(0);
+}
+
+#image1:hover {
+  background-image: url("bbs2021PurpleFront.PNG");
+  filter: saturate(1);
+}
+
+#image2 {
+  background-image: url("bbsClothingFrontAlex.PNG");
+  margin-right: 0em;
+  filter: saturate(0);
+}
+
+#image2:hover {
+  background-image: url("bbsClothingFrontAlex.PNG");
+  filter: saturate(1);
+}
+
+#image3 {
+  background-image: url("bbs2020TourBlackFront.PNG");
+  margin-right: 0em;
+  filter: saturate(0);
+}
+
+#image3:hover {
+  background-image: url("bbs2020TourBlackFront.PNG");
+  filter: saturate(1);
+}
+
+#image4 {
+  background-image: url("bbsJarreFront.PNG");
+  margin-right: 0em;
+  filter: saturate(0);
+}
+
+#image4:hover {
+  background-image: url("bbsJarreFront.PNG");
+  filter: saturate(1);
+}
+#image5 {
+  background-image: url("davidFront.PNG");
+  margin-right: 0em;
+  filter: saturate(0);
+}
+
+#image5:hover {
+  background-image: url("davidFront.PNG");
+  filter: saturate(1);
+}
+
+#image6 {
+  background-image: url("kasperFront.PNG");
+  margin-right: 0em;
+  filter: saturate(0);
+}
+
+#image6:hover {
+  background-image: url("kasperFront.PNG");
+  filter: saturate(1);
+}
+
+#image7 {
+  background-image: url("gustavFront.PNG");
+  margin-right: 0em;
+  filter: saturate(0);
+}
+
+#image7:hover {
+  background-image: url("gustavFront.PNG");
+  filter: saturate(1);
+}
+
+#image8 {
+  background-image: url("bbs2020OrangeFront.PNG");
+  margin-right: 0em;
+  filter: saturate(0);
+}
+
+#image8:hover {
+  background-image: url("bbs2020OrangeFront.PNG");
+  filter: saturate(1);
+}
+
+#image9 {
+  background-image: url("bbs2021RedFront.PNG");
+  margin-right: 0em;
+  filter: saturate(0);
+}
+
+#image9:hover {
+  background-image: url("bbs2021RedFront.PNG");
+  filter: saturate(1);
+}
+
+.whiteChristmas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#image10 {
+  background-image: url("xmasEditionWhiteFront.PNG");
+  width: 28em;
+  height: 28em;
+
+  margin-left: 3em;
+}
+
+#image10:hover {
+  background-image: url("xmasEditionWhiteBack.PNG");
+}
+
+.grayBar {
+  display: flex;
+
+  background-image: url("street-art-graffiti.jpg");
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+}
+
+.firstCollection {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#image11 {
+  background-image: url("bbs2020OrangeFront.PNG");
+  margin-right: 0em;
+  width: 20em;
+  height: 20em;
+}
+
+#image11:hover {
+  background-image: url("bbs2020OrangeBack.PNG");
+}
+
+#textFirstCollection {
+  margin-top: 6em;
+  font-size: 20px;
+}
+
+#image12 {
+  background-image: url("bbs2020BlackFront.PNG");
+  margin-right: 0em;
+  width: 20em;
+  height: 20em;
+}
+
+#image12:hover {
+  background-image: url("bbs2020BlackBack.PNG");
+}
+
+.secondCollection {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#image13 {
+  background-image: url("bbs2021PurpleFront.PNG");
+  margin-right: 0em;
+  width: 20em;
+  height: 20em;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+#image13:hover {
+  background-image: url("bbs2021PurpleBack.PNG");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.textSecondCollection {
+  font-size: 20px;
+}
+
+#image14 {
+  background-image: url("bbs2021RedFront.PNG");
+  margin-right: 0em;
+  width: 20em;
+  height: 20em;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+#image14:hover {
+  background-image: url("bbs2021RedBack.PNG");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.dropbtn {
+  background-color: green;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px black;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: lightgreen;
+}
+
+.shoppingCart {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#image15 {
+  background-image: url("xmasEditionRedFront.PNG");
+  width: 28em;
+  height: 28em;
+
+  margin-left: 3em;
+}
+
+#image15:hover {
+  background-image: url("xmasEditionRedBack.PNG");
+}
+
+#image16 {
+  background-image: url("xmasEditionGreenFront.PNG");
+  width: 28em;
+  height: 28em;
+
+  margin-left: 3em;
+}
+
+#image16:hover {
+  background-image: url("xmasEditionGreenBack.PNG");
+}
